@@ -1,0 +1,20 @@
+table{
+    border: 2px solid red;
+    margin: auto;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid red;
+    padding: 15px;
+
+}
+tr{
+    background-color: aquamarine;
+}
+th{
+    border-radius: 20px;
+}
+td{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

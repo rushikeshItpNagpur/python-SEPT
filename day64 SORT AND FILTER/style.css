@@ -1,0 +1,17 @@
+#container{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.card > img {
+    width: 70%
+    
+}

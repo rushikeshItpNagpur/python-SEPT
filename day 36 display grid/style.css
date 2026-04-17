@@ -1,0 +1,18 @@
+#container{
+
+border: 6px solid red;
+height: 600px;
+height: auto;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-columns: repeat(20,0fr);
+column-gap: 50px;
+row-gap: 100px;
+gap: 20px 20px;
+gap: 50px;
+}
+.card{
+    height: 50px;
+    width: 50px;
+    border: 2px solid green;
+}

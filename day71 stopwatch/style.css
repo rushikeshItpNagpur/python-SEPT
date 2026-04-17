@@ -1,0 +1,15 @@
+#timer,#controllers{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#controllers{
+    width: 50%;
+}
+#data{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

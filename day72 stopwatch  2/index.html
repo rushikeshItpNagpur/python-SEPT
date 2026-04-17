@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="timer">
+         
+        <h1 id="hr">hr</h1>
+        <h1>:</h1>
+        <h1 id="min">min</h1>
+        <h1>:</h1>
+        <h1 id="sec" >sec</h1>
+    </div>
+    
+    <div id="controllers">
+     
+      
+        <button onclick="chnagehr(-1)">-1hr</button>
+        <button onclick="chnagemin(-10)">-10min</button>
+        <button onclick="changemin(-1)">-1min</button>
+        <button id="startbtn" onclick="start()">start timer</button>
+        <button id="stopbtn" onclick="stop()">Stop timer</button>
+        <button onclick="noteTime()" >lap</button>
+        <button onclick="changemin(1)">+1min</button>
+        <button onclick="changemin(10)">+10min</button>
+        <button onclick="chnagehr(1)">+1hr</button>
+   
+        
+    </div>
+
+     <div id="data">
+
+
+           <ol id="list">
+
+           </ol>
+
+
+     </div>
+     
+     <div id="audio">
+
+     </div>
+     <div id="click">
+
+     </div>
+<!-- <audio controls autoplay>
+  <source src="./sound.mp3" type="audio/mpeg" />
+  <source src="myAudio.ogg" type="audio/ogg" />
+
+</audio> -->
+
+</body>
+<script src="./script.js"></script>
+</html>

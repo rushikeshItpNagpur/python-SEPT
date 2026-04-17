@@ -1,0 +1,15 @@
+#prodForm{
+    width: 350px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+#prodForm > input , #prodForm > select {
+    width: 80%;
+    font-size: 20px;
+} 

@@ -1,0 +1,37 @@
+/* #alpha h1{
+    color: green;
+}  */
+
+#alpha > h1{
+    /* color: pink; */
+}
+
+#alpha > div > div>div > h1{
+    color: cyan;
+}
+
+div > div > div >div > h1{
+    color: rgb(223, 16, 202);
+}
+/* h1{
+    color: red;
+} */
+
+h1 + h2{
+    color: rgb(22, 69, 222);
+}
+
+#mohan + h2{
+    background-color: aqua;
+}
+#mohan ~ h1{
+    background-color: brown;
+}
+
+#kk + div >h1{
+    background-color: rgb(0, 243, 207);
+}
+#kk + #kkbro >h1{
+    text-decoration: line-through;
+    background-color: crimson;
+}

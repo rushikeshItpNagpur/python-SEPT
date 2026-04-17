@@ -1,0 +1,16 @@
+#todoList{
+    width: 500px;
+    height: 600px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: auto;
+}
+#inpDiv{
+    width: 80%;
+    height: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    /* text-decoration: line-through; */
+}

@@ -1,0 +1,35 @@
+#prodForm{
+    width: 350px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+#prodForm > input , #prodForm > select {
+    width: 80%;
+    font-size: 20px;
+} 
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+.card{
+    width: 250px;
+    height: 400px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.card > img {
+
+    width: 80%;
+    height: 50%;
+}

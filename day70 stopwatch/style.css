@@ -1,0 +1,10 @@
+.align{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,58 @@
+*{
+    font-family: "roboto";
+}
+
+.card{
+    margin: auto;
+    border: 1px solid red;
+    width: 350px;
+    height: 550px;
+}
+
+.card> div{
+    margin: auto;
+    border:2px solid green ;
+    width: 90%;
+    height:50%;
+    text-align: center;
+}
+.card > div >img{
+    border: 1px solid red;
+    width: 80%;
+    height: 100%;
+    
+}
+#div-btm{
+    text-align: left;
+}
+#div-btm > p{
+    font-size: 14px;
+    line-height: 20px;
+  font-weight: 500;
+
+}
+
+#div-btm>p+div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+#div-btm> p + div > h4 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#div-btm> p + div > h4 +p{
+    text-decoration: line-through;
+} 
+#div-btm> p + div > div{
+    /* border: 1px solid red; */
+    padding: 3px 5px;
+    background-color: #e6f7ef;
+    color: rgb(3, 117, 60);
+    font-weight: 800;
+    border-radius: 5px;
+
+}

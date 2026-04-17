@@ -1,0 +1,13 @@
+#counter{
+    width: 30%;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#xyz{
+    border: 5px solid red;
+    width: 150px;
+    height: 150px;
+}
